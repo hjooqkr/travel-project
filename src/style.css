@@ -1,0 +1,72 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f9f5ed;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+    url("../img/palace1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 180px 0;
+}
+
+header h1 {
+  font-size: 96px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+header h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 7px;
+}
+
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: purple;
+  background: white;
+  letter-spacing: 2px;
+  padding: 10px 25px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 50px;
+  }
+  header h2 {
+    font-size: 24px;
+  }
+  header a {
+    font-size: 14px;
+    padding: 5px 13px;
+  }
+}
