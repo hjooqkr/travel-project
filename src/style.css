@@ -52,9 +52,40 @@ header a {
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 100px;
+}
+main {
+  background: white;
+}
+main img {
+  width: 100%;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 42px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+main h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 7px;
+}
+
+main p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.main-grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
 }
 footer {
-  margin-top: 10px;
   background-image: linear-gradient(
       rgba(27, 37, 107, 0.2),
       rgba(27, 37, 107, 0.7)
@@ -64,9 +95,7 @@ footer {
   background-size: cover;
   color: white;
 }
-footer {
-  padding: 60px 120px 200px;
-}
+
 footer p {
   font-weight: 400;
   font-size: 15px;
@@ -85,9 +114,10 @@ footer a {
   opacity: 0.8;
   text-decoration: underline;
 }
-.grid {
+.footer-grid {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 50px;
 }
 @media (max-width: 960px) {
   header {
@@ -102,5 +132,16 @@ footer a {
   header a {
     font-size: 14px;
     padding: 5px 13px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 26px;
+  }
+  main img {
+    display: block;
+    margin: 0 auto;
+  }
+  section {
+    padding: 30px;
   }
 }
