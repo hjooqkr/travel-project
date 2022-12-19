@@ -18,7 +18,7 @@ header {
   padding: 180px 0;
 }
 .main-grid1 img {
-  filter: hue-rotate(38deg) saturate(150%);
+  filter: hue-rotate(38deg) saturate(130%);
 }
 header h1 {
   font-size: 96px;
@@ -159,6 +159,10 @@ main p {
 }
 .temp tbody {
   background: lightgray;
+}
+#high,
+#low {
+  font-size: 16px;
 }
 footer {
   background-image: linear-gradient(
