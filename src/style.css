@@ -121,6 +121,9 @@ main p {
   text-decoration: none;
   color: white;
 }
+.embed {
+  width: 100%;
+}
 footer {
   background-image: linear-gradient(
       rgba(27, 37, 107, 0.2),
